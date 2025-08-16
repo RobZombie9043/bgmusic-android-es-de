@@ -2,6 +2,8 @@
 
 Instructions for setting up background music to play while using ES-DE using Tasker (paid app)
 
+If it is the first time you are using Tasker it will likely prompt a number of times through the setup for permissions to complete the functionality required to do this. Follow the prompts when this happens to grant the appropriate permissions. 
+
 ### 1) Tap + to create new profile 
 <img width="1920" height="1080" alt="Screenshot_20250817-074500" src="https://github.com/user-attachments/assets/dda1fef0-2fe0-4e6c-bbf3-26cd24fb79f5" />
 
