@@ -3,7 +3,8 @@
 Instructions for setting up background music to play in ES-DE frontend using [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) (paid app)
 
 - [Background Music base functionality setup](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#background-music-base-functionality-setup)
-- [Optional Screensaver Controls](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#optional-screensaver-controls)
+- [Optional Screensaver Music Playback Controls](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#optional-screensaver-controls)
+- [Optional Flash Notification Customisation](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#optional-flash-notifications)
 
 <hr/>
 
@@ -149,7 +150,7 @@ Below instructions detail how to create this profile from scratch.
 
 <hr/>
 
-## [Optional] Screensaver Controls
+## [Optional] Screensaver Music Playback Controls
 <details>
 <summary>Optional instructions for setting up controls for background music playback during the ES-DE screensaver</summary>
 
@@ -209,6 +210,15 @@ The resultant file structure should look like:
 <img width="1920" height="1080" alt="Screenshot_20250817-130722" src="https://github.com/user-attachments/assets/1c11eedb-d4e6-4f24-b60b-97f40c8187b4" />
 
 
+</details>
+
+<hr/>
+
+## [Optional] Flash Notifications Customisation
+<details>
+<summary>Optional instructions for setting up customisation of the flash notifications displayed when a new song plays</summary>
+
+### Instructions to be detailed (WIP)
 </details>
 
 <hr/>
