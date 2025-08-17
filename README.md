@@ -2,7 +2,16 @@
 
 Instructions for setting up background music to play in ES-DE frontend using [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) (paid app)
 
+- [Background Music base functionality setup](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#background-music-base-functionality-setup)
+- [Optional Screensaver Controls](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#optional-screensaver-controls)
+
+<hr/>
+
 ## Background Music base functionality setup
+<details>
+<summary>Step-by-step instructions for setting up a background music profile in Tasker</summary>
+
+<hr/>
 
 A premade project file that can be imported in Tasker is available [here](https://github.com/RobZombie9043/bgmusic-android-es-de/blob/main/Resources/Background_Music.prj.xml). 
 
@@ -133,6 +142,74 @@ Below instructions detail how to create this profile from scratch.
 
 ### 24) Go back to the main profile screen and tap `✓` in top right of screen to confirm new tasks
 <img width="1920" height="1080" alt="Screenshot_20250817-082544" src="https://github.com/user-attachments/assets/1ef90cf1-2e11-4908-b407-e262e0ac64e9" />
+
+<hr/>
+
+</details>
+
+<hr/>
+
+## [Optional] Screensaver Controls
+<details>
+<summary>Optional instructions for setting up controls for background music playback during the ES-DE screensaver</summary>
+
+<hr/>
+
+This is an optional set up to enable some more advanced control over the background music playing during the screensaver playing in ES-DE.
+
+> 💡 This example will work through hooking in to the screensaver-start and screensaver-end events using ES-DE's custom event scripting functionality and pausing the playback of bg music during the screensaver and then playing music again when exiting the screensaver. Similar logic could be followed to alter the volume of music playback during the screensaver event etc.
+
+### 1) Go in to ES-DE `Main Menu` -> `Other Settings` > `Enable Cutom Event Scripts` and toggle this on
+<img width="1920" height="1080" alt="Screenshot_20250817-131527" src="https://github.com/user-attachments/assets/420b33f6-5b01-499a-af5c-2399b6f91544" />
+
+<hr/>
+
+### 2) Copy the script files from [here](https://github.com/RobZombie9043/bgmusic-android-es-de/tree/main/Resources/scripts) to the ~ES-DE\scripts folder
+The resultant file structure should look like:
+```
+~ES-DE\
+~ES-DE\scripts\
+~ES-DE\scripts\screensaver-end\
+~ES-DE\scripts\screensaver-end\screensaver-end.sh
+~ES-DE\scripts\screensaver-start\
+~ES-DE\scripts\screensaver-start\screensaver-start.sh
+```
+
+<hr/>
+
+### 3) Steps to be detailed (WIP)
+
+<img width="1920" height="1080" alt="Screenshot_20250817-125857" src="https://github.com/user-attachments/assets/14fac6b0-46e7-4770-888f-b050050af8a4" />
+<img width="1920" height="1080" alt="Screenshot_20250817-125906" src="https://github.com/user-attachments/assets/9e884fba-7015-4342-bb32-58ec8b5127ce" />
+<img width="1920" height="1080" alt="Screenshot_20250817-125910" src="https://github.com/user-attachments/assets/b7e723f4-f4e5-46e5-93d1-71c769393f44" />
+<img width="1920" height="1080" alt="Screenshot_20250817-125916" src="https://github.com/user-attachments/assets/21b06d72-4d17-43f9-b0d0-a892ab09a806" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130003" src="https://github.com/user-attachments/assets/42d95615-da60-461e-b917-b7a893a1945f" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130011" src="https://github.com/user-attachments/assets/6c4fd7f5-29b0-4751-a085-4a83cdd734bf" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130120" src="https://github.com/user-attachments/assets/279d8d45-88d7-497c-a5e3-e51779d582f1" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130136" src="https://github.com/user-attachments/assets/f664f562-495d-4d51-aef8-090488c4dfff" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130154" src="https://github.com/user-attachments/assets/0948cd67-10ac-4161-8052-d42783b1019e" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130234" src="https://github.com/user-attachments/assets/6bc524ec-d26c-496e-9887-946318977fa8" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130241" src="https://github.com/user-attachments/assets/554c5585-bb2f-4c1b-954b-b1cfd12c5590" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130354" src="https://github.com/user-attachments/assets/4a54dba8-60fc-4eed-a1b1-18d586b8d11e" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130401" src="https://github.com/user-attachments/assets/8de99458-d766-40a9-85ba-30804e9e9b38" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130425" src="https://github.com/user-attachments/assets/52dd8a5b-0abc-4a34-a7d5-0a080a25c508" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130448" src="https://github.com/user-attachments/assets/27c08afa-3306-4d8d-aabf-d96fd5339a49" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130518" src="https://github.com/user-attachments/assets/7282e2fa-7bff-4520-867d-ed1dfb407cd2" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130528" src="https://github.com/user-attachments/assets/85e93d3c-8ab4-4ec6-acda-fe2386891601" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130534" src="https://github.com/user-attachments/assets/36e060e8-1518-44c7-8652-54c24c5cec1f" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130541" src="https://github.com/user-attachments/assets/e858222f-575e-4e41-bbe0-9f2cf7bc456f" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130555" src="https://github.com/user-attachments/assets/435ea00f-b6da-4b1e-a370-881cc5ee5cd4" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130600" src="https://github.com/user-attachments/assets/6541955f-506f-4a89-825f-03ef5873f995" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130604" src="https://github.com/user-attachments/assets/debb257b-7f08-441d-867d-7f6b426203d2" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130632" src="https://github.com/user-attachments/assets/6a968c1e-535b-472a-8edd-e557987241e2" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130644" src="https://github.com/user-attachments/assets/1b957d92-31a1-45cc-bbe9-85cf5ebed063" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130657" src="https://github.com/user-attachments/assets/f0fe2367-a6b1-4bbf-8fcc-a4fcfdb521c8" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130702" src="https://github.com/user-attachments/assets/d905e6bd-4eb2-47bf-82f3-c7c8fae9e68c" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130709" src="https://github.com/user-attachments/assets/15117d10-7159-4209-9223-31b7709ef907" />
+<img width="1920" height="1080" alt="Screenshot_20250817-130722" src="https://github.com/user-attachments/assets/1c11eedb-d4e6-4f24-b60b-97f40c8187b4" />
+
+
+</details>
 
 <hr/>
 
