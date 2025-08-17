@@ -312,7 +312,7 @@ The resultant file structure should look like:
 <hr/>
 
 ## Updates to come
-- [ ] Add hook into screensaver event to allow control of music playback during screensaver (i.e. lower volume or stop music playback during screensaver)
+- [x] Add hook into screensaver event to allow control of music playback during screensaver (i.e. lower volume or stop music playback during screensaver)
 - [ ] Add customisations to music title flash message displaying song title
 - [ ] Investigate possibilty of music control shortcuts (next track, pause, play?)
 
