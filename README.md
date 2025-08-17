@@ -6,6 +6,13 @@ Instructions for setting up background music to play in ES-DE frontend using [Ta
 - [Optional Screensaver Music Playback Controls](https://github.com/RobZombie9043/bgmusic-android-es-de/blob/main/README.md#-optional-screensaver-music-playback-controls)
 - [Optional Flash Notification Customisation](https://github.com/RobZombie9043/bgmusic-android-es-de/blob/main/README.md#-optional-flash-notifications-customisation)
 
+<details>
+<summary>Preview video</summary>
+  
+https://github.com/user-attachments/assets/03f7b0c7-5e61-4858-8224-f39256bcb63b
+
+</details>
+
 <hr/>
 
 ## 🎵 Background Music base functionality setup
