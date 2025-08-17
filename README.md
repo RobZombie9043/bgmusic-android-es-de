@@ -155,7 +155,7 @@ Below instructions detail how to create this profile from scratch.
 
 <hr/>
 
-This is an optional set up to enable some more advanced control over the background music playing during the screensaver playing in ES-DE.
+This is an optional set up to enable some more advanced control over the background music playback during the screensaver playing in ES-DE.
 
 > 💡 This example will work through hooking in to the screensaver-start and screensaver-end events using ES-DE's custom event scripting functionality and pausing the playback of bg music during the screensaver and then playing music again when exiting the screensaver. Similar logic could be followed to alter the volume of music playback during the screensaver event etc.
 
