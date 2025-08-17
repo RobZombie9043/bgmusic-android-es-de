@@ -2,7 +2,7 @@
 
 Instructions for setting up background music to play in ES-DE frontend using [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) (paid app)
 
-- [Background Music base functionality setup](https://github.com/RobZombie9043/bgmusic-android-es-de/edit/main/README.md#background-music-base-functionality-setup)
+- [Background Music base functionality setup](https://github.com/RobZombie9043/bgmusic-android-es-de/blob/main/README.md#-background-music-base-functionality-setup)
 - [Optional Screensaver Music Playback Controls](https://github.com/RobZombie9043/bgmusic-android-es-de/blob/main/README.md#-optional-screensaver-music-playback-controls)
 - [Optional Flash Notification Customisation](https://github.com/RobZombie9043/bgmusic-android-es-de/blob/main/README.md#-optional-flash-notifications-customisation)
 
