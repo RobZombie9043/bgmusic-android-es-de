@@ -8,7 +8,7 @@ Instructions for setting up background music to play in ES-DE frontend using [Ta
 
 <hr/>
 
-## Background Music base functionality setup
+## 🎵 Background Music base functionality setup
 <details>
 <summary>Step-by-step instructions for setting up a background music profile in Tasker</summary>
 
@@ -150,7 +150,7 @@ Below instructions detail how to create this profile from scratch.
 
 <hr/>
 
-## [Optional] Screensaver Music Playback Controls
+## 🎵 [Optional] Screensaver Music Playback Controls
 <details>
 <summary>Optional instructions for setting up controls for background music playback during the ES-DE screensaver</summary>
 
@@ -214,7 +214,7 @@ The resultant file structure should look like:
 
 <hr/>
 
-## [Optional] Flash Notifications Customisation
+## 🎵 [Optional] Flash Notifications Customisation
 <details>
 <summary>Optional instructions for setting up customisation of the flash notifications displayed when a new song plays</summary>
 
