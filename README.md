@@ -177,7 +177,7 @@ The resultant file structure should look like:
 
 <hr/>
 
-### 3) Steps to be detailed (WIP)
+### 3) Steps to be detailed (WIP - pictures below, description to come)
 
 <img width="1920" height="1080" alt="Screenshot_20250817-125857" src="https://github.com/user-attachments/assets/14fac6b0-46e7-4770-888f-b050050af8a4" />
 <img width="1920" height="1080" alt="Screenshot_20250817-125906" src="https://github.com/user-attachments/assets/9e884fba-7015-4342-bb32-58ec8b5127ce" />
