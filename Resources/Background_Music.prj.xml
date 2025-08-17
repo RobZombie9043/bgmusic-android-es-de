@@ -1,0 +1,55 @@
+<TaskerData sr="" dvi="1" tv="6.5.11">
+	<Profile sr="prof3" ve="2">
+		<cdate>1755373515300</cdate>
+		<edate>1755390423279</edate>
+		<flags>8</flags>
+		<id>3</id>
+		<mid0>4</mid0>
+		<mid1>6</mid1>
+		<nme>Background Music</nme>
+		<App sr="con0" ve="2">
+			<cls0>org.es_de.frontend.MainActivityHomeApp</cls0>
+			<flags>2</flags>
+			<label0>ES-DE</label0>
+			<pkg0>org.es_de.frontend</pkg0>
+		</App>
+		<State sr="con1" ve="2">
+			<code>123</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1755390352867</cdate>
+		<name>Background Music</name>
+		<pids>3</pids>
+		<tids>6,4</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_av_volume_up</nme>
+		</Img>
+	</Project>
+	<Task sr="task4">
+		<cdate>1755373556292</cdate>
+		<edate>1755389438927</edate>
+		<id>4</id>
+		<nme>Start Music</nme>
+		<Action sr="act0" ve="7">
+			<code>447</code>
+			<Str sr="arg0" ve="3">Music</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1755373718614</cdate>
+		<edate>1755373748494</edate>
+		<id>6</id>
+		<nme>Stop Music</nme>
+		<Action sr="act0" ve="7">
+			<code>449</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
