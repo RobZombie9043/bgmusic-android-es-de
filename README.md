@@ -301,19 +301,3 @@ The resultant file structure should look like:
 </details>
 
 <hr/>
-
-## 🎵 [Optional] Flash Notifications Customisation
-<details>
-<summary>Optional instructions for setting up customisation of the flash notifications displayed when a new song plays</summary>
-
-### Instructions to be detailed (WIP)
-</details>
-
-<hr/>
-
-## Updates to come
-- [x] Add hook into screensaver event to allow control of music playback during screensaver (i.e. lower volume or stop music playback during screensaver)
-- [ ] Add customisations to music title flash message displaying song title
-- [ ] Investigate possibilty of music control shortcuts (next track, pause, play?)
-
-
