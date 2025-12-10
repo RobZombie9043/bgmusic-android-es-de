@@ -210,6 +210,10 @@ The resultant file structure should look like:
 
 <hr/>
 
+#### 2.2) Create a folder in the root of your internal storage named Tasker
+
+<hr/>
+
 ### 3) Create new Tasker profile
 
 <hr/>
